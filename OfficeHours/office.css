@@ -1,0 +1,18 @@
+body{
+    background-color: white;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: 90%;
+    border: 5px black;
+    justify-content: space-evenly;
+}
+
+#box1 {
+    width: 90%;
+    height: 20%;
+    border: 1px;
+    
+}

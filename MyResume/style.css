@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: rgb(0, 0, 0)(0, 0, 0);
+    --text-color: Gray;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: Inter, sans-serif;
+    background-color: rgb(240, 228, 165);
+    color: white;
+}
+img {
+    width: 100%;
+}
+
+.container {
+    max-width: 1000px;
+    width: 90%;
+    margin: 0 auto;
+    display: flexbox;
+    padding: 50px;
+    background: #1b1b1b;
+    grid-template-columns: auto;
+    gap: 40px;
+}
+
+.profile {
+    grid-auto-columns: auto;
+}
+
+.profile_container {
+    display: grid;
+    gap: 20px;
+}
+
+.profile_profileImg {
+    max-width: 250px;
+}
+
+.profile_name_firstname {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+
+.profile_name_lastname {
+    color: rgb(239, 69, 255);
+    font-size: 50px;
+}
+
+.profile_title {
+    font-size: 25px;
+    font-style: bold;
+    text-transform: uppercase;
+}
+
+.description {
+    font-size: 15px;
+}
+
+.group-1 {
+    display: grid;
+    padding: 10px;
+    margin-top: 75px;
+}
+
+.education {
+    display: grid;
+    margin-top: 75px;
+}
+
+.title {
+    display: grid;
+    font-size: 25px;
+    margin-bottom: 10px;
+    color:rgb(114, 216, 241);
+}
+
+.education_item {
+    font-size: 15px;
+}
+
+.employment_item {
+    display: flexbox;
+    font-size: 15px;
+}

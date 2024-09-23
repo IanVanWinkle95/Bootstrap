@@ -1,0 +1,31 @@
+.container {  
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: flex;
+ }
+ .boxes {
+    border: .1px solid;
+    width: 450px;
+    height: 450px;
+    text-align: center;
+    font-size: 30px;
+    border-color: black;
+ }
+ #box1 { background-color: white; }
+ #box2 { background-color: white; }
+ #box3 { background-color: white; }
+ .card-body {
+    border: 1px solid black;
+    width: 250px;
+ }
+ 
+ .img-container img {
+    max-width: 50%;
+    height: auto;
+ }
+ 
+ .card-body p, .card-body h1 {
+    margin: 8px;
+ }
+ 
