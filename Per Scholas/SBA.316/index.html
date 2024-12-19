@@ -4,9 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="styles.css" />
+    
 </head>
 <body>
-    
+    <form
+      name="myForm"
+      method="POST"
+      id="form"
+    >
+    <input type="text" id="name" placeholder="Name" />
+    <input type="text" name="email" placeholder="Email" />
+    <input type="email" id="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" required>
+    <input type="password" name="password" placeholder="Password" />
+    <select name="continent" id="continent-select">
+      <option value="">Select Destination</option>
+      <option value="Asia">Asia</option>
+      <option value="Africa">Africa</option>
+      <option value="North America">North America</option>
+      <option value="South America">South America</option>
+      <option value="Antarctica">Antarctica</option>
+      <option value="Europe">Europe</option>
+      <option value="Austalia">Australia</option>
+    </select>
+    </form>
+    <script src="index.js"></script>
 </body>
 </html>
