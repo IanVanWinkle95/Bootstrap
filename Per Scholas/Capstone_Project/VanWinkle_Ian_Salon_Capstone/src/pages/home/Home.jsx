@@ -54,45 +54,7 @@ export default function HomePage() {
           <div className="gallery-item">
             <img src={image3} alt="Hair Styling Example 3" />
           </div>
-          {/* <div className="gallery-item">
-            <img src={image4} alt="Hair Styling Example 4" />
-          </div> */}
-          {/* <div className="gallery-item"> */}
-            {/* <img src={image5} alt="Hair Styling Example 5" />
-          </div>
-          <div className="gallery-item">
-            <img src={image6} alt="Hair Styling Example 6" />
-          </div>
-          <div className="gallery-item">
-            <img src={image7} alt="Hair Styling Example 7" />
-          </div>
-          <div className="gallery-item">
-            <img src={image8} alt="Hair Styling Example 8" />
-          </div>
-          <div className="gallery-item">
-            <img src={image9} alt="Hair Styling Example 9" />
-          </div>
-          <div className="gallery-item">
-            <img src={image10} alt="Hair Styling Example 10" />
-          </div>
-          <div className="gallery-item">
-            <img src={image11} alt="Hair Styling Example 11" />
-          </div>
-          <div className="gallery-item">
-            <img src={image12} alt="Hair Styling Example 12" />
-          </div>
-          <div className="gallery-item">
-            <img src={image13} alt="Hair Styling Example 13" />
-          </div>
-          <div className="gallery-item">
-            <img src={image14} alt="Hair Styling Example 14" />
-          </div>
-          <div className="gallery-item">
-            <img src={image15} alt="Hair Styling Example 15" />
-          </div>
-          <div className="gallery-item">
-            <img src={image16} alt="Hair Styling Example 16" /> */}
-          {/* </div> */}
+          
         </div>
       </section>
 
