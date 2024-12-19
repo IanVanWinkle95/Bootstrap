@@ -92,7 +92,7 @@ export default function HomePage() {
           </div>
           <div className="gallery-item">
             <img src={image16} alt="Hair Styling Example 16" /> */}
-          </div>
+          {/* </div> */}
         </div>
       </section>
 
