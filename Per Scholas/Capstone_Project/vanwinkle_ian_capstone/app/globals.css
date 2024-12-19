@@ -1,0 +1,30 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+:root {
+  --font-1: "Mona Sans", sans-serif;
+
+
+  --global-color-1: #e39695;
+  --global-color-2: #e4b1ab;
+  --global-color-3: #df7373;
+  --global-color-4: #f4a698;
+  --global-color-5: #b4436c;
+}
+
+body {
+  background-color: #e4b1ab;
+}
+
+header {
+  position: absolute;
+  height: 90px;
+  width: 100%;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  background-color: #e4b1ab;
+}

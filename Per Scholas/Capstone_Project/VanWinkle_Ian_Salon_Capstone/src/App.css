@@ -1,15 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap');
-
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Mona Sans", sans-serif;
+    font-family: sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     font-variation-settings: "wdth" 100;
 }
-
 
 :root {
     --font-1: "Mona Sans", sans-serif;
@@ -31,7 +28,7 @@ header {
     justify-content: space-around;
     align-items: center;
 
-    background-color: #e4b1ab;
+    background-color: #b4436c;
 }
 
 header .logo {

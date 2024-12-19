@@ -1,0 +1,61 @@
+.about-page {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 3em 10%;
+    padding-top: 180px;
+    background-color: #f9f9f9;
+  }
+  
+  .about-header {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: #e4b1ab;
+    color: white;
+    padding: 2em 0;
+    z-index: 10;
+  }
+  
+  .about-header h1 {
+    font-size: 3em;
+    margin: 0;
+  }
+  
+  .about-header p {
+    font-size: 1.5em;
+    margin: 1em 0;
+  }
+  
+  .about-section, .future-plans, .passion-section {
+    margin: 2em 0;
+    padding: 2em;
+  }
+  
+  h2 {
+    font-size: 2em;
+    color: #b4436c;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1.2em;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  em {
+    font-style: italic;
+    color: #b4436c;
+  }
