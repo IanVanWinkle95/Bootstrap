@@ -22,3 +22,52 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Ignore everything in the parent directory
+../
+
+# Ignore system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Ignore IDE files
+.vscode/
+
+# Ignore other unrelated files and directories
+AppData/
+Application Data/
+Cookies/
+Local Settings/
+My Documents/
+NetHood/
+PrintHood/
+Recent/
+SendTo/
+Start Menu/
+Templates/
+3D Objects/
+AMDRM_Install.log
+AMD_RyzenMaster.log
+Contacts/
+Documents/
+Downloads/
+Favorites/
+Ian/
+Links/
+MicrosoftEdgeBackups/
+Music/
+NTUSER.DAT
+NTUSER.DAT{743a6385-a897-11ef-9ca8-89a2915c4d0f}.TM.blf
+NTUSER.DAT{743a6385-a897-11ef-9ca8-89a2915c4d0f}.TMContainer00000000000000000001.regtrans-ms
+NTUSER.DAT{743a6385-a897-11ef-9ca8-89a2915c4d0f}.TMContainer00000000000000000002.regtrans-ms
+OneDrive/
+Pictures/
+Saved Games/
+Searches/
+Videos/
+iCloudDrive/
+iCloudPhotos/
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+ntuser.ini

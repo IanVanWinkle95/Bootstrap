@@ -54,9 +54,9 @@ export default function HomePage() {
           <div className="gallery-item">
             <img src={image3} alt="Hair Styling Example 3" />
           </div>
-          <div className="gallery-item">
+          {/* <div className="gallery-item">
             <img src={image4} alt="Hair Styling Example 4" />
-          </div>
+          </div> */}
           {/* <div className="gallery-item"> */}
             {/* <img src={image5} alt="Hair Styling Example 5" />
           </div>
